@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a,b,d;
+    scanf("%d\n%d",&a,&b);
+    d= sqrt(pow(a - 3, 2) + pow(b - 4, 2));
+    printf("%d",d);
+        return 0;
+}
